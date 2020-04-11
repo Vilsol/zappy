@@ -1,7 +1,7 @@
 # Zappy
 
 ```
-zappy proxies an http server and serves a cached whilst updating cache in the background
+zappy proxies an http server and serves a cached response whilst updating cache in the background
 
 Usage:
   zappy [command]

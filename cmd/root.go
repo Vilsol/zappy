@@ -13,7 +13,7 @@ var ForceColors bool
 
 var rootCmd = &cobra.Command{
 	Use:   "zappy",
-	Short: "zappy proxies an http server and serves a cached whilst updating cache in the background",
+	Short: "zappy proxies an http server and serves a cached response whilst updating cache in the background",
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
 		level, err := log.ParseLevel(LogLevel)
 
